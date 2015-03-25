@@ -21,16 +21,6 @@ import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-/*******************************************************************************
- * 版权信息：博睿宏远科技发展有限公司
- * Copyright: Copyright (c) 2014 博睿宏远科技发展有限公司,Inc.All Rights Reserved.
- * BidPlanStructForm.java Created on 2015-3-24
- * Author: <a href=mailto:wanghd@bonree.com>王厚达</a>
- * @Title: ConfUtil.java
- * @Package bonree.monitor.util
- * Description:
- * Version: 1.0
- ******************************************************************************/
 public class ConfUtil {
 	/**
 	 * 默认配置文件存放目录名称
@@ -87,7 +77,7 @@ public class ConfUtil {
 	 * @Title: getFilePath
 	 * @param fileName
 	 * @return String
-	 * @user <a href=mailto:wanghd@bonree.com>王厚达</a>
+	 * @user <a href=mailto:wanghouda@126.com>王厚达</a>
 	 */
 	public static String getFilePath(String fileName) {
 		return getConfigDir() + fileName;
@@ -97,7 +87,7 @@ public class ConfUtil {
 	 * 
 	 * @Title: getConfigDir
 	 * @return String
-	 * @user <a href=mailto:wanghd@bonree.com>王厚达</a>
+	 * @user <a href=mailto:wanghouda@126.com>王厚达</a>
 	 */
 	public static String getConfigDir() {
 		String systemPath=System.getProperty("user.dir") ;;
