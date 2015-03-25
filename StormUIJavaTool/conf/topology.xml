@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -->
+<root>
+	<topologysummary >
+		<topology name="calcData" />
+
+		<topology name="loadData"  />
+
+		<topology name="init-outSQL" />
+
+	</topologysummary>
+	
+	<supervisorsummary  >
+
+		<bolt host="corenode" slotsTotal="20" slotsUsed="17" />
+
+		<bolt host="datanode01" slotsTotal="20" slotsUsed="17" />
+		
+		<bolt host="datanode03" slotsTotal="20" slotsUsed="17" />
+		
+ 		<bolt host="datanode04" slotsTotal="20" slotsUsed="17" />
+		
+		<bolt host="datanode05" slotsTotal="20" slotsUsed="17" />
+
+		<bolt host="datanode06" slotsTotal="20" slotsUsed="17" />
+		
+		<bolt host="datanode07" slotsTotal="20" slotsUsed="17" />
+
+		<bolt host="datanode08" slotsTotal="20" slotsUsed="17" />
+		
+		<bolt host="datanode09" slotsTotal="20" slotsUsed="17" />
+
+	</supervisorsummary>
+	
+</root>
