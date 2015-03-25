@@ -1,14 +1,5 @@
-package storm.heaven.stormui.entity;
-/*******************************************************************************
- * 版权信息：博睿宏远科技发展有限公司
- * Copyright: Copyright (c) 2014 博睿宏远科技发展有限公司,Inc.All Rights Reserved.
- * BidPlanStructForm.java Created on 2015-3-23
- * Author: <a href=mailto:wanghd@bonree.com>王厚达</a>
- * @Title: Topology.java
- * @Package bonree.utils
- * Description:
- * Version: 1.0
- ******************************************************************************/
+package storm.heaven.monitor.entity;
+
 public class Topology {
 	private String id;
 	private String encodedId;

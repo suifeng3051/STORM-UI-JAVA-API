@@ -1,14 +1,5 @@
-package storm.heaven.stormui.entity;
-/*******************************************************************************
- * 版权信息：博睿宏远科技发展有限公司
- * Copyright: Copyright (c) 2014 博睿宏远科技发展有限公司,Inc.All Rights Reserved.
- * BidPlanStructForm.java Created on 2015-3-23
- * Author: <a href=mailto:wanghd@bonree.com>王厚达</a>
- * @Title: Spout.java
- * @Package bonree.monitor.ui
- * Description:
- * Version: 1.0
- ******************************************************************************/
+package storm.heaven.monitor.entity;
+
 public class Spout {
 	private Integer executors;
 	private Integer emitted;
@@ -19,6 +10,11 @@ public class Spout {
 	private String errorPort;
 	private String spoutId;
 	private Integer tasks;
+	private String errorHost;
+	private String lastError;
+	private String errorWorkerLogLink;
+	private Integer failed;
+	private String encodedSpoutId;
 	public Integer getExecutors() {
 		return executors;
 	}
@@ -72,6 +68,36 @@ public class Spout {
 	}
 	public void setTasks(Integer tasks) {
 		this.tasks = tasks;
+	}
+	public String getErrorHost() {
+		return errorHost;
+	}
+	public void setErrorHost(String errorHost) {
+		this.errorHost = errorHost;
+	}
+	public String getLastError() {
+		return lastError;
+	}
+	public void setLastError(String lastError) {
+		this.lastError = lastError;
+	}
+	public String getErrorWorkerLogLink() {
+		return errorWorkerLogLink;
+	}
+	public void setErrorWorkerLogLink(String errorWorkerLogLink) {
+		this.errorWorkerLogLink = errorWorkerLogLink;
+	}
+	public Integer getFailed() {
+		return failed;
+	}
+	public void setFailed(Integer failed) {
+		this.failed = failed;
+	}
+	public String getEncodedSpoutId() {
+		return encodedSpoutId;
+	}
+	public void setEncodedSpoutId(String encodedSpoutId) {
+		this.encodedSpoutId = encodedSpoutId;
 	}
 	
 

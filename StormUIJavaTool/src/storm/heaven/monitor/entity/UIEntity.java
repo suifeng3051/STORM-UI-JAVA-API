@@ -1,4 +1,4 @@
-package storm.heaven.stormui.entity;
+package storm.heaven.monitor.entity;
 
 import java.io.IOException;
 import java.lang.reflect.Field;
@@ -10,16 +10,7 @@ import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
 
-/*******************************************************************************
- * 版权信息：博睿宏远科技发展有限公司
- * Copyright: Copyright (c) 2014 博睿宏远科技发展有限公司,Inc.All Rights Reserved.
- * BidPlanStructForm.java Created on 2015-3-23
- * Author: <a href=mailto:wanghd@bonree.com>王厚达</a>
- * @Title: UIEntity.java
- * @Package bonree.utils
- * Description:
- * Version: 1.0
- ******************************************************************************/
+
 public abstract class UIEntity {
 	public abstract void parse(String result) throws JsonParseException, JsonMappingException, IOException;
 	public void parse(String json,Object obj) throws JsonParseException, JsonMappingException, IOException {

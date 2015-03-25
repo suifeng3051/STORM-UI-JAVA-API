@@ -1,4 +1,4 @@
-package storm.heaven.stormui.entity;
+package storm.heaven.monitor.entity;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,14 +10,7 @@ import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
 
-/*******************************************************************************
- * 版权信息：博睿宏远科技发展有限公司 Copyright: Copyright (c) 2014 博睿宏远科技发展有限公司,Inc.All Rights
- * Reserved. BidPlanStructForm.java Created on 2015-3-23 Author: <a
- * href=mailto:wanghd@bonree.com>王厚达</a>
- * 
- * @Title: Topoloies.java
- * @Package bonree.ui Description: Version: 1.0
- ******************************************************************************/
+
 public class TopoloySummary extends UIEntity {
 	private static final String TOPOLOGY_KEY="topologies";
 	private List<Topology> topologies;
